@@ -22,6 +22,8 @@ jobs:
 
       - name: Clean
         run: mvn -ntp clean
+      - name: Checkstyle check
+        run: mvn -ntp checkstyle:check -Dcheckstyle.violationSeverity=warning
       - name: Build
         run: mvn -ntp compile
       - name: Short tests
