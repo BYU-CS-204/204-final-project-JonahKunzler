@@ -152,7 +152,5 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.9.19</version>
         </dependency>
-
     </dependencies>
-
 </project>
